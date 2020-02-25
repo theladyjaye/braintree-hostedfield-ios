@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <title>Braintree Hosted Field</title>
+    <script type="text/javascript">
+        // this is injected from iOS, but for testing 
+        // from the Webpack Dev Server this can be enabled.
+        //
+        // Your sandbox tokenization key
+        // from https://sandbox.braintreegateway.com/
+        // - Click the gear in the upper right
+        // - select API
+        // - Locate the Tokenization Keys section
+        // - Copy an existing valid value or click the  `+ Generate New Tokenization Key`
+        //   button and use the resulting generated key. It will be in the format
+        //   of "sandbox_xxxxxxxx_xxxxxxxxxxxxxxxx"
+        //
+        // var BRAINTREE_INIT_TOKEN = "sandbox_xxxxxxxx_xxxxxxxxxxxxxxxx"
+    </script>
+
+</head>
+
+<body>
+    <div id="react"></div>
+    <script src="./static/js/index.js"></script>
+</body>
+
+</html>

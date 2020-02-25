@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "./",
+      "rootDir": "./",
+      "esModuleInterop": true,
+      "lib": ["es6", "dom"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "noImplicitAny": false,
+      "outDir": "dist/",
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "target": "es2017",
+      "strict": true,
+      "noUnusedLocals": true,
+      "strictNullChecks": true,
+      "noImplicitReturns": true
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.d.ts", "./src/**/*.tsx"]
+  }
